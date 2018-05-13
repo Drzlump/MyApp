@@ -1,0 +1,29 @@
+{
+  "name": "mesotronicapp",
+  "version": "1.0.0",
+  "description": "app test restfull API",
+  "main": "./api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moi",
+  "license": "ISC",
+  "dependencies": {
+    "@now-ims/hapi-now-auth": "^1.0.4",
+    "bcryptjs": "^2.4.3",
+    "hapi": "^17.2.3",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-sequelizejs": "^1.1.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "joi-authorization-header": "^2.0.0",
+    "jsonwebtoken": "^8.2.1",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "randomstring": "^1.1.5",
+    "require-directory": "^2.1.1",
+    "save": "^2.3.2",
+    "sequelize": "^4.37.4",
+    "vision": "^5.3.2"
+  }
+}
